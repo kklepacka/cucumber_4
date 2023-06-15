@@ -44,24 +44,6 @@
     <build>
         <plugins>
             <plugin>
-                <groupId>io.cucumber</groupId>
-                <artifactId>cucumber-maven-plugin</artifactId>
-                <version>4.8.1</version>
-                <executions>
-                    <execution>
-                        <id>test</id>
-                        <phase>test</phase>
-                        <goals>
-                            <goal>test</goal>
-                        </goals>
-                        <configuration>
-                            <glue>com.example.stepdefinitions</glue>
-                            <featuresDirectory>src/test/resources/cucumber_test</featuresDirectory>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
-            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.11.0</version>
